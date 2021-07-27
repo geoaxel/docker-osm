@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "test_rostock",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 12.336418636223375, 54.316327989318566 ], [ 12.343903759158394, 54.220189870776167 ], [ 12.479930919014228, 54.222031451577045 ], [ 12.471378825046619, 54.315346041366453 ], [ 12.336418636223375, 54.316327989318566 ] ] ] } }
+]
+}

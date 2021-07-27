@@ -9,13 +9,13 @@ then
     GEOJSON_URL=$1
 fi
 
-CONTINENT=africa
+CONTINENT=europe
 if [ -n "$2" ]
 then
     CONTINENT=$2
 fi
 
-COUNTRY=south-africa
+COUNTRY=germany
 
 if [ -n "$3" ]
 then

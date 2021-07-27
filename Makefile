@@ -35,7 +35,7 @@ rundev:
 	@echo "------------------------------------------------------------------"
 	@echo "Running in DEVELOPMENT mode"
 	@echo "------------------------------------------------------------------"
-	@docker-compose -f $(COMPOSE_FILE) -p $(PROJECT_ID) up
+	@docker-compose -f $(COMPOSE_FILE) -p $(PROJECT_ID) up --remove-orphans 
 
 stop:
 	@echo
